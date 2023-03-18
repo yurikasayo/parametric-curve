@@ -1,5 +1,5 @@
 import './style.css';
-import init, { App } from 'wasm';
+import init, { App } from './pkg/wasm';
 
 window.onload = _ => {
     init().then(_ => {
